@@ -1,5 +1,5 @@
 const minMax = () => {
-    let arr = prompt ('Please State the list of numbers you would like to be investigated').string(',')
+    let arr = prompt ('Please State the list of numbers you would like to be investigated, seperated by commas (,)').string(',')
     let min = arr[0]
     let max = arr[0]
     let returnArr = []
